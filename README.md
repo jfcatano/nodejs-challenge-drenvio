@@ -18,11 +18,18 @@ This project is a Node.js challenge for DrEnvio.
 2. Start testing the routes.
 
 ## Project information
-* I created post and create routes for users and products. You can see they here:
+* I created post and create routes for users and products. You can see they here the localhost routes:
 - Route to find users: http://localhost:3000/api/users
 - Route to find products with stock: http://localhost:3000/api/products
 - Route to find products without stock: http://localhost:3000/api/products/all
 - Route to find a product price for a user (You can obtain the special price or the base price if applies to it): http://localhost:3000/api/price/:user_id/:product_name
+
+
+* Same routes, but the link redirects to the API deployment:
+- Route to find users: https://nodejs-challenge-drenvio.amjor.shop/api/users
+- Route to find products with stock: https://nodejs-challenge-drenvio.amjor.shop/api/products
+- Route to find products without stock: https://nodejs-challenge-drenvio.amjor.shop/api/products/all
+- Route to find a product price for a user: https://nodejs-challenge-drenvio.amjor.shop/api/price/:user_id/:product_name
 
 
 # Thanks
